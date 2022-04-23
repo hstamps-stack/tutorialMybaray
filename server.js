@@ -1,7 +1,7 @@
 if (process.env.Node_ENV !== 'production'){
-    require('dotenv').config()
-    console.log(process.env.DATABASE_URL)
-}
+  require('dotenv').config();
+}  
+  
 const express = require("express");
 
 const app = express();
